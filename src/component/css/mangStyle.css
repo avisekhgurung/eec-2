@@ -1,0 +1,97 @@
+.Mang-Dashboard .stud .icon {
+    background: #61be3c;
+}
+
+.Mang-Dashboard .tech .icon {
+    background: #fbde38;
+}
+
+.Mang-Dashboard .parent .icon {
+    background: #198ce7;
+}
+
+.Mang-Dashboard .earning .icon {
+    background: #00c8d2;
+}
+
+.activity-feed {
+    list-style: none;
+}
+
+.activity-feed .feed-item {
+    position: relative;
+    padding-left: 15px;
+    border-left: 2px solid red;
+}
+
+.activity-feed .feed-item:last-child {
+    border-color: transparent;
+}
+
+.activity-feed .feed-item::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 6px;
+    background: #fff;
+    border: 1px solid #f37167;
+}
+
+.activity-feed .feed-item .date {
+    display: block;
+    position: relative;
+    top: -15px;
+    color: #8c96a3;
+    font-size: 14px;
+}
+
+.activity-feed .feed-item .text {
+    position: relative;
+    top: -15px;
+}
+
+/* Management Teacher Student Parent */
+
+.Mang-Teachers .table td, .Mang-Students .table td, .Mang-Parents .table td {
+    vertical-align: middle;
+}
+
+/* Mang-Student & Parent Details */
+
+.Mang-Student-Details .table td {
+    width: 25% !important;
+}
+
+/* Mang-Feedbacks */
+
+.Mang-Feedbacks .nav li a {
+    color: #000;
+    border-bottom: 3px solid #d5d6da;
+    font-size: large;
+}
+
+.Mang-Feedbacks .nav li a.active {
+    color: #ffc107;
+    border-bottom: 3px solid;
+}
+
+/* Mang Progress */
+
+.Mang-Progress .card-header {
+    background: #ffc107;
+}
+
+.Mang-Progress .card-header h5 {
+    margin-bottom: 0;
+}
+
+.Mang-Progress .chart {
+    min-height: 250px;
+    height: 250px;
+    max-height: 250px;
+    max-width: 100%;
+}

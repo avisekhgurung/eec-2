@@ -1,0 +1,142 @@
+/*Dashboard*/
+
+.fees .icon {
+   background: radial-gradient(circle, rgba(254, 98, 105, 1) 0%, rgba(247, 30, 31, 1) 100%);
+}
+
+.exams .icon {
+   background: radial-gradient(circle, rgba(136, 194, 73, 1) 0%, rgba(66, 173, 31, 1) 100%);
+}
+
+.result .icon {
+   background: radial-gradient(circle, rgba(30, 165, 229, 1) 0%, rgba(17, 138, 207, 1) 100%);
+}
+
+.expenses .icon {
+   background: radial-gradient(circle, rgba(73, 242, 249, 1) 0%, rgba(0, 189, 212, 1) 100%);
+}
+
+/*Progress*/
+
+.Progress .card-header {
+   background: #ffc107;
+}
+
+.Progress .card-header h5 {
+   margin-bottom: 0;
+}
+
+.Progress .chart {
+   min-height: 250px;
+   height: 250px;
+   max-height: 250px;
+   max-width: 100%;
+}
+
+/*TimeTable*/
+
+.Routine #brk {
+   font-size: 35px;
+}
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+/*Lesson Plan*/
+
+#btnImg {
+   width: 60px;
+   margin-bottom: 10px;
+}
+
+/*Feedback*/
+
+.Feedback header {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: #dad6d5;
+   border-radius: 10px;
+}
+
+.Feedback header h1 {
+   margin: 2em 1em;
+   font-size: 26px;
+}
+
+.Feedback header img {
+   height: auto;
+   max-width: 30em;
+   margin-bottom: 2em;
+}
+
+.Feedback .feedback-form {
+   padding: 0em 2.5em;
+}
+
+.Feedback .feedback-form h2 {
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1.3;
+   color: #888C96;
+}
+
+.Feedback .rangeslider__fill {
+   background-color: #ffc107 !important;
+}
+
+.Feedback .rangeslider__handle:after {
+   background-color: #ffc107 !important;
+}
+
+.Feedback .values span {
+   cursor: pointer;
+}
+
+/* ProfilePage */
+
+img#logoLeft {
+   margin-bottom: 6px;
+   width: 50px;
+   background: #bbbcc1;
+}
+
+/* AddLessonPlan  */
+
+.inv {
+   display: none;
+}
+
+/* Report Card */
+.Teacher-ReportCard .year-picker {
+   width: 100% !important;
+   height: 38px;
+   border-radius: .25rem !important;
+}
+.Teacher-ReportCard input.year-input{
+   font-size: 1rem;
+}
+.Teacher-ReportCard .input-icon {
+   color: #495057 !important;
+}
+/* View Report Card */
+.Teacher-ViewReportCard .table td, .Teacher-ViewReportCard .table th {
+   border-color: #ffc107;
+   border-width: 3px !important;
+}
+.Teacher-ViewReportCard .table td {
+   font-size: 16px;
+   font-weight: 600;
+}

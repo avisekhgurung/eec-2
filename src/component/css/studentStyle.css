@@ -1,0 +1,137 @@
+/*Dashboard*/
+
+.Student-Dashboard .fees .icon {
+    background: radial-gradient(circle, rgba(254, 98, 105, 1) 0%, rgba(247, 30, 31, 1) 100%);
+}
+
+.Student-Dashboard .exams .icon {
+    background: radial-gradient(circle, rgba(136, 194, 73, 1) 0%, rgba(66, 173, 31, 1) 100%);
+}
+
+.Student-Dashboard .events .icon {
+    background: radial-gradient(circle, rgba(30, 165, 229, 1) 0%, rgba(17, 138, 207, 1) 100%);
+}
+
+.Student-Dashboard .docs .icon {
+    background: radial-gradient(circle, rgba(255, 226, 67, 1) 0%, rgba(253, 205, 6, 1) 100%);
+}
+
+.Student-Dashboard #noticeBoard, #resultDetails {
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.Student-Dashboard .notice {
+    list-style: none;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.Student-Dashboard .notice:last-child {
+    border-bottom: none;
+}
+
+.Student-Dashboard .notice .date {
+    color: #8c96a3;
+    font-size: 14px;
+    display: block;
+}
+
+.Student-Dashboard .notice label {
+    font-weight: bold;
+    color: #7D6B9E;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.Student-Dashboard .notice p {
+    margin-bottom: 0;
+}
+
+.Student-Dashboard .notice .timing {
+    font-weight: normal !important;
+    color: #ADADAD;
+}
+
+.Student-Dashboard .table {
+    font-size: 14px !important;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.Student-Dashboard .tooSmallBox {
+    display: grid;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+    border-radius: .25rem;
+}
+
+.Student-Dashboard .tooSmallBox .number h1 {
+    color: #f6f6f6;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.Student-Dashboard .tooSmallBox.cw {
+    background: #ffc107;
+}
+
+.Student-Dashboard .tooSmallBox.hw {
+    background: #774af3;
+}
+
+.Student-Dashboard .tooSmallBox.tryouts {
+    background: brown;
+}
+
+.Student-Dashboard .tooSmallBox.assesment {
+    background: chartreuse;
+}
+
+.Student-Dashboard #behaviourDetails .fas {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+/* Study Materials */
+
+.Study-Material .side-panel {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(216, 213, 213);
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+
+.Study-Material .side-panel span {
+    padding: 15px;
+    text-decoration: none !important;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+}
+
+.Study-Material .side-panel li:hover {
+    background-color: #ffc107;
+}
+
+.Study-Material .col-lg-9.border {
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+/* Student-Report-Card */
+
+.Student-ReportCard .table h5 {
+    letter-spacing: 2px;
+}
+
+.Student-ReportCard .table td, .Student-ReportCard .table th {
+    border-color: #ffc107;
+    border-width: 3px !important;
+}
+
+.Student-ReportCard .table td {
+    font-size: 16px;
+    font-weight: 600;
+}
